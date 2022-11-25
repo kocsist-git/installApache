@@ -4,6 +4,3 @@ apt upgrade -y
 apt install -y apache2
 systemctl enable apache2
 systemctl status apache2
-git clone https://github.com/kocsist-git/installApache.git
-cd installApache/
-chmod 777 installScript
